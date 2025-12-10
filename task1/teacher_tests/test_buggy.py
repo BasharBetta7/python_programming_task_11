@@ -14,7 +14,8 @@ def test_student_tests_fail_on_buggy_impl(monkeypatch):
     monkeypatch.setattr(club_rules, "can_join_club", buggy)
 
 
-    result = pytest.main(["student_tests/test_club_rules.py"])
+    result = pytest.main(["task1/student_tests/test_club_rules.py"])
+    print(result)
     # They should catch at least one bug
     assert result != 0
 

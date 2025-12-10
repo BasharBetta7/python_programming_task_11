@@ -11,7 +11,7 @@ def test_student_tests_pass_on_correct_impl(monkeypatch):
     
     monkeypatch.setattr(club_rules, "can_join_club", correct)
     # Run the student's tests as a subprocess or via pytest.main
-    result = pytest.main(["student_tests/test_club_rules.py"])
+    result = pytest.main(["task1/student_tests/test_club_rules.py"])
 
     assert result == 0
 
