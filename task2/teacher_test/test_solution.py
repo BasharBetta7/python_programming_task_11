@@ -1,13 +1,7 @@
 import subprocess
-import pathlib
 import sys
 
 from task2.faulty import mysterious_function
-
-
-
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-
 
 def test_correct_function_behavior():
     assert mysterious_function([1,2,3,4,5], 3) == 1.8
