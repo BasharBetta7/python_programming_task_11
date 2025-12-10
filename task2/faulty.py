@@ -5,7 +5,8 @@ def mysterious_function(x, y:int) -> int:
     for i in x:
         if i > y :
             a += i
-    return a / len(x)
+    ans = a / len(x)
+    return anss
     return 1
 
 
