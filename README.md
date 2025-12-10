@@ -1,18 +1,18 @@
-### 1. First you need to clone this repository to your local maching with the command:
+### 1. Сначала вам нужно клонировать этот репозиторий в свой локальный компьютер с помощью команды:
 > git clone https://github.com/BasharBetta7/python_programming_task_11.git
-### 2. Go to your specified path inside your local machine and make sure you are inside the directory "tasks":
+### 2. Перейдите по указанному вами пути на вашем локальном компьютере и убедитесь, что вы находитесь в каталоге "./tasks":
 > cd ./tasks
-### 3. Create a virtual environment with: 
+### 3. Создайте виртуальную среду с помощью: 
 > python -m venv venv
-### 4. Activate the created environment:
+### 4. Активируйте созданную среду:
 > source venv/bin/activate
-### 5. Install dependencies:
+### 5. Установить зависимости:
 > pip install -r requirements.txt
 
-if you faced any errors while executing the previous command, you can manually install `pytest` by running:
+если вы столкнулись с какими-либо ошибками при выполнении предыдущей команды, вы можете вручную установить "pytest", выполнив:
  > pip install pytest
 
 
-Now you can start solving the tasks one by one. When running your scripts, make sure you are inside the directory "./tasks", otherwise, you may face problems with module imports.
+Теперь вы можете приступить к решению задач по очереди. При запуске скриптов убедитесь, что вы находитесь внутри каталога "./tasks", в противном случае у вас могут возникнуть проблемы с импортом модулей.
 
-After solving each task according to the description provided in the LMS, you must run the checker script (information are provided in LMS homework).
+После решения каждой задачи в соответствии с описанием, приведенным в LMS, вы должны запустить скрипт проверки (информация приведена в домашнем задании LMS).
