@@ -10,7 +10,7 @@
 > pip install --upgrade pip && pip install -r requirements.txt
 
 если вы столкнулись с какими-либо ошибками при выполнении предыдущей команды, вы можете вручную установить зависимости, выполнив:
- > pip install --upgrade pip && pip install pytest pylint mypy
+ > pip install --upgrade pip && pip install pytest pylint mypy pytest-mock
 
 
 Теперь вы можете приступить к решению задач по очереди. При запуске скриптов убедитесь, что вы находитесь внутри каталога "./python_programming_task_11", в противном случае у вас могут возникнуть проблемы с импортом модулей.
