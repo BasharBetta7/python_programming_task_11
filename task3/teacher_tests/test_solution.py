@@ -74,7 +74,7 @@ def main() -> None:
         print("test_student_tests: FAILED")
         sys.exit(1)
 
-    print(STUDENT_TEST_FILE)
+    print(f"test_student_tests: PASSED")
    
 
     source = STUDENT_TEST_FILE.read_text(encoding="utf-8")

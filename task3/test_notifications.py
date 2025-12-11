@@ -8,17 +8,14 @@ def fake_email_gateway():
     pass
 
 
-
-#test_email_sending :
-
-
-
-#test_correct_token :
+#test_email_sending:
 
 
 
+#test_token_correctness:
 
-#test_returned_message_matches_sent :
+
+#test_returned_object_correctness:
 
 
 
