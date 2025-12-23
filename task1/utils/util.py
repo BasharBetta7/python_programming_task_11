@@ -1,8 +1,8 @@
 import subprocess
 import sys
 
-cmd_1 = [sys.executable, "-m", "pytest", "-vv", "task1/teacher_tests/test_buggy.py"]
-cmd_2 = [sys.executable, "-m", "pytest", "-vv", "task1/teacher_tests/test_correct.py"]
+cmd_1 = [sys.executable, "-m", "pytest", "-vv", "task1/utils/test_buggy.py"]
+cmd_2 = [sys.executable, "-m", "pytest", "-vv", "task1/utils/test_correct.py"]
 
 result_1 = subprocess.run(cmd_1,
     text=True,
@@ -27,4 +27,6 @@ else:
     print(f"test_correct FAILED")
 
 print(f"Correctly passed tests {corrects}/2")
+if corrects == 2:
+    print("TESTS PASSED!")
 

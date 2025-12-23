@@ -80,3 +80,5 @@ if __name__ == '__main__':
         print(f"run `mypy --strict ./task2/faulty.py` to find and correct your function")
     
     print(f"total score: {score}/4")
+    if score == 4:
+        print("ALL TESTS PASSED CORRECTLY!")

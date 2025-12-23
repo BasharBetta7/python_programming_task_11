@@ -101,6 +101,7 @@ def main() -> None:
     if score < 4:
         sys.exit(1)
     else:
+        print("SOLUTION COMPLETE!")
         sys.exit(0)
 
 
